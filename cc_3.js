@@ -31,3 +31,14 @@ employee.performanceScore = 95;
 employee.promotionEligible = true;
 // Log the updated employee object to the console
 console.log("Updated Employee:", employee);
+// Task 4: Customer Feedback Records
+// Declare an array containing at least three objects with customer feedback
+let feedback = [
+    { customerName: "Chani", feedbackText: "Best spice in the Imperium!", rating: 5 },
+    { customerName: "Gurney Halleck", feedbackText: "Sublime flavor, truly legendary.", rating: 5 },
+    { customerName: "Thufir Hawat", feedbackText: "A necessary commodity.", rating: 4 }
+];
+// Add a new feedback object to the array
+feedback.push({ customerName: "Paul Atreides", feedbackText: "The spice must flow!", rating: 5 });
+// Log the entire feedback list to the console
+console.log("Customer Feedback:", feedback);

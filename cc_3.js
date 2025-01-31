@@ -17,3 +17,17 @@ const totalOrders = orders.reduce((total, quantity) => total + quantity, 0);
 // Log the updated array and total order count to the console
 console.log("Updated Orders:", orders);
 console.log("Total Orders:", totalOrders);
+// Task 3: Employee Performance Tracking
+// Declare an object with properties: name, role, performanceScore, and isActive
+let employee = {
+    name: "Duncan Idaho",
+    role: "Swordmaster",
+    performanceScore: 85,
+    isActive: true
+};
+// Update the performanceScore property
+employee.performanceScore = 95;
+// Add a new property promotionEligible with a boolean value
+employee.promotionEligible = true;
+// Log the updated employee object to the console
+console.log("Updated Employee:", employee);

@@ -7,3 +7,13 @@ spicePrices.push(3500);
 spicePrices.shift();
 // Log the updated price list to the console
 console.log("Updated Spice Prices:", spicePrices);
+// Task 2: Modifying Customer Orders
+// Declare an array representing order quantities
+let orders = [15, 25, 35, 45, 55];
+// Increase the third order quantity by 5
+orders[2] += 5;
+// Calculate the total number of all orders
+const totalOrders = orders.reduce((total, quantity) => total + quantity, 0);
+// Log the updated array and total order count to the console
+console.log("Updated Orders:", orders);
+console.log("Total Orders:", totalOrders);
